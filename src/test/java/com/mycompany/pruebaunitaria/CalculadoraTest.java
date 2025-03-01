@@ -27,4 +27,13 @@ public class CalculadoraTest {
         Calculadora calc = new Calculadora();
         assertEquals(2, calc.sumar(5, -3), "La suma de 5 y -3 debe ser 2");
     }
+
+    /**
+     * Prueba unitaria para verificar la resta con un números positivos
+     */
+    @Test
+    void testSumaConNegativo() {
+        Calculadora calc = new Calculadora();
+        assertEquals(2, calc.restar(10, 7), "La resta 10 y 7 debe ser 3");
+    }
 }
